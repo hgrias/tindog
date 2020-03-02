@@ -1,0 +1,9 @@
+/* ! To target ID's, you need to use # */
+
+#title {
+  background-color: #ff4c68;
+}
+
+/* ! To target clases, you need to use . */
+
+/* ! To target HTML elements, just use their name (body, h1, p, etc) */
