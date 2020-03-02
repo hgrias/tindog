@@ -4,6 +4,16 @@
   background-color: #ff4c68;
 }
 
-/* ! To target clases, you need to use . */
+/* ! To target classes, you need to use . */
+.container-fluid {
+  padding: 3% 15%;
+}
 
 /* ! To target HTML elements, just use their name (body, h1, p, etc) */
+
+h1 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
