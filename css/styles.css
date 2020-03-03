@@ -185,6 +185,14 @@ body {
 
 #footer {
   background-color: white;
-  padding: 7% 15%;
+  padding: 5% 15%;
   text-align: center;
+}
+
+.icons {
+  padding-bottom: 2%;
+}
+
+.fab {
+  padding-right: 2%;
 }
