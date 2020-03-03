@@ -84,6 +84,7 @@ body {
   padding: 7% 15%;
   font-family: Montserrat;
   text-align: center;
+  background-color: white;
 }
 
 #features h3 {
@@ -127,4 +128,15 @@ body {
 
 .carousel-item {
   padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
