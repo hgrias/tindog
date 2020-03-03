@@ -10,7 +10,7 @@
 
 /* ! To target classes, you need to use . */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* ! To target HTML elements, just use their name (body, h1, p, etc) */
@@ -64,6 +64,14 @@ body {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  z-index: 0;
+}
+
+.title {
+  position: absolute;
+  z-index: -1;
 }
 
 /* Fontawesome Styling */
@@ -85,6 +93,7 @@ body {
   font-family: Montserrat;
   text-align: center;
   background-color: white;
+  position: relative;
 }
 
 #features h3 {
@@ -139,4 +148,16 @@ body {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* media query breakpoint for design on smaller devices */
+@media (max-width: 1280px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
